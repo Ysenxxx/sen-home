@@ -1,0 +1,61 @@
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  background: url(../images/yys.jpg) center center no-repeat;
+  background-size: 300px;
+  box-shadow: 0 70px 60px -60px #000;
+}
+
+.border {
+  position: relative;
+  height: 270px;
+  width: 260px;
+  background: transparent;
+  border-radius: 20px;
+  opacity: 0;
+}
+
+.border:hover {
+  opacity: 0.6;
+  border: 3px solid #fff;
+}
+
+.icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  height: 160px;
+  width: 50px;
+  top: 175px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.card1 h2 {
+  font-family: sans-serif;
+  color: #fff;
+  margin: 20px;
+}
+
+.card1 ion-icon:hover {
+  opacity: 0.5;
+}
+
+.card1:hover {
+  background: url(../images/yys.jpg) center no-repeat;
+  background-size: 500px;
+}
+
+.card1,
+.border,
+.card1 h2,
+.card1 ion-icon {
+  transition: background 1s, opacity 0.7s;
+}
