@@ -5,7 +5,7 @@
   height: 300px;
   width: 300px;
   border-radius: 20px;
-  background: url(../images/yys.jpg) center center no-repeat;
+  background: url(yys.jpg) center center no-repeat;
   background-size: 300px;
   box-shadow: 0 70px 60px -60px #000;
 }
@@ -49,7 +49,7 @@
 }
 
 .card1:hover {
-  background: url(../images/yys.jpg) center no-repeat;
+  background: url(yys.jpg) center no-repeat;
   background-size: 500px;
 }
 
